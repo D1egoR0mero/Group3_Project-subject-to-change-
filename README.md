@@ -1,1 +1,1 @@
-# Phishing-URL-Detector
+# Group 3 Project
