@@ -18,19 +18,23 @@ URL_SHORTENERS = (
 
 def main():
     # Kick everything off by opening the GUI.
+    # Kiran Section
     gui()
 
 
 def gui():
     # setup the gui for the user
+    # Kiran/Tyson Section
     print("filler")
 
 def readFromGUI():
+    # Diego Section
     # Take the user url and give it to the program so it can parse
     print("filler")
 
 
 def parse(url):
+    # William Section
     # Take the given URL as a String and check for signs of phishing.
     # Returns a list of (weight, reason) tuples one per warning sign found.
     signs = []
@@ -90,11 +94,14 @@ def parse(url):
     return signs
 
 def analyze():
+    # Diego Section
     # calculate the liklihood of a url being phishing and return it as a percentage.
     print("filler")
 
 def showUser():
+    # Tyson Section
     # Show the user the chances of the url being phishing, as a final result
+    # Also reasons for why the url is bad or safe
     print("filler")
 
 
